@@ -7,6 +7,7 @@ namespace Animals
 {
 enum Habitat { RIVER, SEA, LAKE };
 enum Migration { MIGRATORY, NONMIGRATORY };
+enum  Diet { PREDATOR, HERBIVORE, INSECTIVOROUS };
 class Animal {
 public:
     static Animal * In(ifstream & ifst);
