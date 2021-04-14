@@ -8,5 +8,6 @@ class Bird: public Animal
 public:
     void InData(ifstream & ifst);
     bool Out(ofstream & ofst);
+    int LengthName();
 };
 }
