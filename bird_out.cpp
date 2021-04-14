@@ -14,7 +14,7 @@ bool Bird::Out(ofstream & ofst)
     default:
         return false;
     }
-    ofst << " bird - " << Name << endl;
+    ofst << " bird (" << Age << " age) - " << Name << endl;
     return true;
 }
 }
