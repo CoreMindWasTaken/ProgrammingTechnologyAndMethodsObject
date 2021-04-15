@@ -10,6 +10,7 @@ public:
     bool In(ifstream & ifst);
     void Out(ofstream & ofst);
     void Clear();
+    void OutFish(ofstream & ofst);
     Container();
     ~Container()
     {
