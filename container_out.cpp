@@ -4,6 +4,7 @@ namespace Animals
 void Container::Out(ofstream & ofst)
 {
     ofst << "Container contains " << Size << " elements!" << endl;
+    this->Sort();
     Node * N = LastNode;
     while ((N != NULL) && (N->PrevNode != NULL))
     {
