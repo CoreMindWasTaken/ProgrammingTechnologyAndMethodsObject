@@ -13,5 +13,6 @@ public:
     static Animal * In(ifstream & ifst);
     virtual void InData(ifstream & ifst) = 0;
     virtual bool Out(ofstream & ofst) = 0;
+    virtual void OutFish(ofstream & ofst);
 };
 }
