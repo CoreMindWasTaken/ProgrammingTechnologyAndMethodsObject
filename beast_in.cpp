@@ -4,7 +4,7 @@ namespace Animals
 void Beast::InData(ifstream & ifst)
 {
     int TMP;
-    ifst >> Name >> TMP;
+    ifst >> Name >> TMP >> Age;;
     D = (Diet)TMP;
 }
 }

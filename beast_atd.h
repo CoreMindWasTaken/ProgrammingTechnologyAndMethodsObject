@@ -3,7 +3,6 @@
 namespace Animals {
 class Beast: public Animal
 {
-    std::string Name;
     Diet D;
 public:
     void InData(ifstream & ifst);

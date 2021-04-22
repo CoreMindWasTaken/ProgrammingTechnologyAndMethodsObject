@@ -17,7 +17,7 @@ bool Beast::Out(ofstream & ofst)
     default:
         return false;
     }
-    ofst << " beast - " << Name << endl;
+    ofst << " beast (" << Age << " age) - " << Name << endl;
     return true;
 }
 }

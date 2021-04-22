@@ -1,7 +1,7 @@
-#include "bird_atd.h"
+#include "animal_atd.h"
 namespace Animals
 {
-int Bird::LengthName()
+int Animal::LengthName()
 {
     return Name.size();
 }
