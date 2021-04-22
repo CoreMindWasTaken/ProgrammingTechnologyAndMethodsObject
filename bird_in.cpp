@@ -4,7 +4,7 @@ namespace Animals
 void Bird::InData(ifstream & ifst)
 {
     int TMP;
-    ifst >> Name >> TMP;
+    ifst >> Name >> TMP >> Age;
     AttitudeFlight = (Migration)TMP;
 }
 }

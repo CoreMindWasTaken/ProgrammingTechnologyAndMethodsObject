@@ -5,6 +5,7 @@ class Fish: public Animal
 {
     std::string Name;
     Habitat Place;
+    int Age;
 public:
     void InData(ifstream & ifst);
     bool Out(ofstream & ofst);

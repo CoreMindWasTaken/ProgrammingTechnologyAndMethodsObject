@@ -17,7 +17,7 @@ bool Fish::Out(ofstream & ofst)
     default:
         return false;
     }
-    ofst << " fish - " << Name << endl;
+    ofst << " fish (" << Age << " age) - " << Name << endl;
     return true;
 }
 }
