@@ -8,6 +8,6 @@ class Fish: public Animal
 public:
     void InData(ifstream & ifst);
     bool Out(ofstream & ofst);
-    void OutFish(ofstream & ofst);
+    int LengthName();
 };
 }

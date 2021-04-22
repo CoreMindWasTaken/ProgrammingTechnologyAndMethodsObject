@@ -6,6 +6,10 @@ bool Node::Out(ofstream & ofst)
     {
         return false;
     }
-    return true;
+    else
+    {
+        ofst << "Length animal name: " << A->LengthName() << endl;
+        return true;
+    }
 }
 }
