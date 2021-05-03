@@ -1,4 +1,5 @@
 #include "animal_atd.h"
+
 namespace Animals
 {
 bool Animal::Compare(Animal * OtherAnimal)

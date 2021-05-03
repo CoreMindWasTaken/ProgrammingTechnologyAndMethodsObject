@@ -1,4 +1,5 @@
 #include "container_atd.h"
+
 namespace Animals
 {
 bool Container::In(ifstream & ifst)
@@ -23,6 +24,7 @@ bool Container::In(ifstream & ifst)
         }
         else
         {
+            delete N;
             cout << "The input received incorrect data!" << endl;
             return false;
         }

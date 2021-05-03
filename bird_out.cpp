@@ -1,10 +1,13 @@
 #include "bird_atd.h"
+
 namespace Animals
 {
 bool Bird::Out(ofstream & ofst)
 {
     ofst << "It is ";
-    switch (AttitudeFlight) {
+
+    switch (AttitudeFlight)
+    {
     case MIGRATORY:
         ofst << "migrant";
         break;
@@ -14,6 +17,7 @@ bool Bird::Out(ofstream & ofst)
     default:
         return false;
     }
+
     ofst << " bird (" << Age << " age) - " << Name << endl;
     return true;
 }

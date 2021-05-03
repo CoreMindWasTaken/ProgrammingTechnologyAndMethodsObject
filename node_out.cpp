@@ -1,5 +1,7 @@
 #include "node_atd.h"
-namespace Animals {
+
+namespace Animals
+{
 bool Node::Out(ofstream & ofst)
 {
     if (!A->Out(ofst))

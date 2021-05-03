@@ -1,4 +1,5 @@
 #include "container_atd.h"
+
 namespace Animals
 {
 void Container::Clear()
@@ -8,6 +9,7 @@ void Container::Clear()
     while (N != NULL)
     {
         TMP = N->PrevNode;
+        delete N->A;
         delete N;
         N = TMP;
     }

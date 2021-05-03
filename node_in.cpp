@@ -1,5 +1,7 @@
 #include "node_atd.h"
-namespace Animals {
+
+namespace Animals
+{
 bool Node::In(ifstream & ifst)
 {
    Animal * A = Animal::In(ifst);

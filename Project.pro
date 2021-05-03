@@ -4,10 +4,13 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.cpp \
+    animal_destructor.cpp \
     animal_in.cpp \
     animal_length_name.cpp \
     animal_out.cpp \
     animal_compare.cpp \
+    beast_destructor.cpp \
+    bird_destructor.cpp \
     bird_in.cpp \
     bird_out.cpp \
     container_clear.cpp \
@@ -15,6 +18,7 @@ SOURCES += main.cpp \
     container_init.cpp \
     container_out.cpp \
     container_sort.cpp \
+    fish_destructor.cpp \
     fish_in.cpp \
     fish_out.cpp \
     node_in.cpp \

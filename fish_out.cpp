@@ -1,10 +1,12 @@
 #include "fish_atd.h"
+
 namespace Animals
 {
 bool Fish::Out(ofstream & ofst)
 {
     ofst << "It is ";
-    switch (Place) {
+    switch (Place)
+    {
     case RIVER:
         ofst << "river";
         break;

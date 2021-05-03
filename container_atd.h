@@ -1,5 +1,7 @@
 #pragma once
+
 #include "node_atd.h"
+
 namespace Animals
 {
 class Container
