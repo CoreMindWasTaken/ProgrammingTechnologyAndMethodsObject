@@ -17,9 +17,11 @@ class Animal
 public:
     std::string Name;
     int Age;
+
     static Animal * In(ifstream & ifst);
     virtual bool InData(ifstream & ifst) = 0;
     virtual bool Out(ofstream & ofst) = 0;
+    virtual int Type() = 0;
     virtual void OutFish(ofstream & ofst);
     virtual ~Animal();
     int LengthName();

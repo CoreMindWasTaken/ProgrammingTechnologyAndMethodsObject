@@ -6,9 +6,10 @@ namespace Animals
 {
 class Container
 {
+public:
     unsigned int Size;
     Node * LastNode;
-public:
+
     bool In(ifstream & ifst);
     void Out(ofstream & ofst);
     void OutFish(ofstream & ofst);

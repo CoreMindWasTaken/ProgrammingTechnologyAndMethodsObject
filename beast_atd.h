@@ -6,10 +6,12 @@ namespace Animals
 {
 class Beast: public Animal
 {
-    Diet D;
 public:
+    Diet D;
+
     bool InData(ifstream & ifst);
     bool Out(ofstream & ofst);
+    int Type();
     ~Beast();
 };
 }

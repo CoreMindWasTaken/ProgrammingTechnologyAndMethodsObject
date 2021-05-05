@@ -10,6 +10,7 @@ public:
     Animal * A;
     Node * NextNode;
     Node * PrevNode;
+
     bool In(ifstream & ifst);
     bool Out(ofstream & ofst);
     Node ()

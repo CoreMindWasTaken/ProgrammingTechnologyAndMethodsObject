@@ -6,10 +6,12 @@ namespace Animals
 {
 class Bird: public Animal
 {
-    Migration AttitudeFlight;
 public:
+    Migration AttitudeFlight;
+
     bool InData(ifstream & ifst);
     bool Out(ofstream & ofst);
+    int Type();
     ~Bird();
 };
 }
