@@ -15,6 +15,7 @@ SOURCES += main.cpp \
     animal_out.cpp \
     animal_compare.cpp \
     beast_destructor.cpp \
+    beast_multimethod.cpp \
     beast_type.cpp \
     bird_destructor.cpp \
     bird_in.cpp \
@@ -36,7 +37,10 @@ SOURCES += main.cpp \
     container_out_fish.cpp \
     beast_in.cpp \
     beast_out.cpp \
-    test.cpp
+    test.cpp \
+    container_multimethod.cpp \
+    bird_multimethod.cpp \
+    fish_multimethod.cpp
 
 
 HEADERS += \

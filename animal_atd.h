@@ -17,7 +17,6 @@ class Animal
 public:
     std::string Name;
     int Age;
-
     static Animal * In(ifstream & ifst);
     virtual bool InData(ifstream & ifst) = 0;
     virtual bool Out(ofstream & ofst) = 0;
@@ -26,5 +25,9 @@ public:
     virtual ~Animal();
     int LengthName();
     bool Compare (Animal * OtherAnimal);
+    virtual void Multimethod(Animal * OtherAnimal, ofstream & ofst) = 0;
+    virtual void MFish(ofstream & ofst) = 0;
+    virtual void MBird(ofstream & ofst) = 0;
+    virtual void MBeast(ofstream & ofst) = 0;
 };
 }

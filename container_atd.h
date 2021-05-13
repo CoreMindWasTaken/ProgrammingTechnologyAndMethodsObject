@@ -15,6 +15,7 @@ public:
     void OutFish(ofstream & ofst);
     void Clear();
     void Sort();
+    void Multimethod(ofstream & ofst);
     Container();
     ~Container()
     {
