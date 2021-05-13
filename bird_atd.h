@@ -8,5 +8,8 @@ class Bird: public Animal
 public:
     void InData(ifstream & ifst);
     bool Out(ofstream & ofst);
+    void Multimethod(Animal * OtherAnimal, ofstream & ofst);
+    void MFish(ofstream & ofst);
+    void MBird(ofstream & ofst);
 };
 }

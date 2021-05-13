@@ -10,6 +10,7 @@ public:
     bool In(ifstream & ifst);
     void Out(ofstream & ofst);
     void Clear();
+    void Multimethod(ofstream & ofst);
     Container();
     ~Container()
     {
